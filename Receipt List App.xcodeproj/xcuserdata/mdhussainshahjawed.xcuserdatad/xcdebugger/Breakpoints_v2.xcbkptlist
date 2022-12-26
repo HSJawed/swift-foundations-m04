@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5E003268-6C93-4C6E-A63E-BDD76B3E717C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9505EA4D-5CE7-4966-9255-E0485167B696"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Receipt List App/Services/DataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "getLocalData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9505EA4D-5CE7-4966-9255-E0485167B696 - 70b96792c75cf443"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Receipt_List_App.DataService.getLocalData() -&gt; Swift.Array&lt;Receipt_List_App.Recipe&gt;"
+                  moduleName = "Receipt List App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mdhussainshahjawed/Documents/Chris/90Days/Receipt%20List%20App/Receipt%20List%20App/Services/DataService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "280">
+               </Location>
+               <Location
+                  uuid = "9505EA4D-5CE7-4966-9255-E0485167B696 - 70b96792c75cf443"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Receipt_List_App.DataService.getLocalData() -&gt; Swift.Array&lt;Receipt_List_App.Recipe&gt;"
+                  moduleName = "Receipt List App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mdhussainshahjawed/Documents/Chris/90Days/Receipt%20List%20App/Receipt%20List%20App/Services/DataService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "608">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BD43E32B-B6C1-4DE1-B6AF-3D8C5BED706F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Receipt List App/Services/DataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "getLocalData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A1D1FADF-8BBB-43D7-9536-2E18402D6712"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Receipt List App/Services/DataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "getLocalData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A1D1FADF-8BBB-43D7-9536-2E18402D6712 - 70b96792c75cf443"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Receipt_List_App.DataService.getLocalData() -&gt; Swift.Array&lt;Receipt_List_App.Recipe&gt;"
+                  moduleName = "Receipt List App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mdhussainshahjawed/Documents/Chris/90Days/Receipt%20List%20App/Receipt%20List%20App/Services/DataService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "280">
+               </Location>
+               <Location
+                  uuid = "A1D1FADF-8BBB-43D7-9536-2E18402D6712 - 70b96792c75cf443"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Receipt_List_App.DataService.getLocalData() -&gt; Swift.Array&lt;Receipt_List_App.Recipe&gt;"
+                  moduleName = "Receipt List App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mdhussainshahjawed/Documents/Chris/90Days/Receipt%20List%20App/Receipt%20List%20App/Services/DataService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "608">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
