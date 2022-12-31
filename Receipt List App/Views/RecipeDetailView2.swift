@@ -30,10 +30,10 @@ struct RecipeDetailView2: View {
                         .font(.headline)
                         .padding([.bottom, .top], 5.0)
                     
-                    ForEach(recipe.ingredients, id: \.self){
+                    ForEach(recipe.ingredients){
                         item in
                         
-                        Text("•"+item)
+                        Text("•"+item.name)
                             .padding(.bottom, 1)
                     }
                 }

@@ -88,10 +88,10 @@
 		DA845E17295729AC00912904 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DA24858B295B1F3B003AE2E4 /* RecipeTabView.swift */,
 				DA845E0B2957292200912904 /* RecipeListView.swift */,
 				DA2284EA29594B6B00AE0456 /* RecipeDetailView.swift */,
 				DA2284EC29597B0600AE0456 /* RecipeDetailView2.swift */,
-				DA24858B295B1F3B003AE2E4 /* RecipeTabView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
