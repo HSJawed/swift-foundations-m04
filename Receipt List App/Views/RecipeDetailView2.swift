@@ -72,7 +72,7 @@ struct RecipeDetailView2_Previews: PreviewProvider {
     static var previews: some View {
         //Set up a dummy recipe and pass it
         
-        var model = RecipeModel()
-        RecipeDetailView2(recipe: model.recieps[0])
+        let model = RecipeModel()
+        RecipeDetailView2(recipe: model.recipes[0])
     }
 }

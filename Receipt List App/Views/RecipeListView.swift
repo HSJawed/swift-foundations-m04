@@ -9,15 +9,13 @@ import SwiftUI
 
 struct RecipeListView: View {
     
-    /* //Reference the View Model
-     @ObservedObject var model = RecipeModel() */
-    
     @EnvironmentObject var model:RecipeModel
     
     var body: some View {
         
         NavigationView {
-            List(model.recieps) { r in
+            
+            List(model.recipes) { r in
                 
                 NavigationLink(destination: RecipeDetailView(recipe: r),
                     label: {
@@ -26,19 +24,15 @@ struct RecipeListView: View {
                         Image(r.image)
                             .resizable()
                             .scaledToFill()
-                            .frame(width: 50, height: 50, alignment: .center).clipped().cornerRadius(5)
+                            .frame(width: 50, height: 50, alignment: .center)
+                            .clipped()
+                            .cornerRadius(5)
                         Text(r.name)
                     }
-                    
                 })
-                                
-
-               
-                
             }
             .navigationBarTitle("All Items")
         }
-        
     }
 }
 

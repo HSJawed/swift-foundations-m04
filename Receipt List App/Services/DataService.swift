@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 class DataService {
     
     static func getLocalData() ->[Recipe] {
@@ -25,7 +24,6 @@ class DataService {
         
         // Create a url object
         let url = URL(fileURLWithPath: pathString!)
-        
         
         do {
             // Create a data object
@@ -45,26 +43,19 @@ class DataService {
                     for i in r.ingredients {
                         i.id = UUID()
                     }
-                    
-                    
                 }
                 return recipeData
                 
                 // Add the unique ids
                 // Return the recipes
-                
             }
             catch {
                 print(error)
             }
         }
-        
         catch {
             print(error)
         }
-        
         return[Recipe]()
-        
     }
-    
 }

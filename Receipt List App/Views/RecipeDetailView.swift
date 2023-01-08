@@ -20,8 +20,6 @@ struct RecipeDetailView: View {
                     .resizable()
                 .scaledToFill()
                 
-                
-                
                 //MARK: Ingrdients
                 VStack (alignment: .leading){
                     Text("Ingredients")
@@ -32,12 +30,9 @@ struct RecipeDetailView: View {
                     ForEach(recipe.ingredients){item in
                         Text("*" + item.name)
                             .padding(.bottom, 5.0)
-                        
                     }
                 }
             
-                
-                
                 //MARK: Divider
                 Divider()
                 
@@ -51,9 +46,7 @@ struct RecipeDetailView: View {
                     ForEach(0..<recipe.directions.count, id:\.self){item in
                         Text(String(item+1)+" " + recipe.directions[item])
                             .padding(.bottom, 5)
-                        
                     }
-                    
                 }
             }
             .padding(.horizontal)
@@ -65,6 +58,6 @@ struct RecipeDetailView: View {
 struct RecipeDetailView_Previews: PreviewProvider {
     static var previews: some View {
         let model = RecipeModel()
-        RecipeDetailView(recipe: model.recieps[0])
+        RecipeDetailView(recipe: model.recipes[0])
     }
 }

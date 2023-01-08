@@ -8,7 +8,6 @@
 import Foundation
 
 class Recipe: Identifiable, Decodable {
-    
     var id:UUID?
     var name:String
     var featured:Bool
@@ -22,7 +21,6 @@ class Recipe: Identifiable, Decodable {
     var ingredients:[Ingredient]
     var directions:[String]
 }
-
 
 class Ingredient: Identifiable, Decodable {
     var id:UUID?
