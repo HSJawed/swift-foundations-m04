@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct RecipeDetailView: View {
+    @EnvironmentObject var model: RecipeModel
     
     var recipe:Recipe
     

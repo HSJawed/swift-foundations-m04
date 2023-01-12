@@ -14,13 +14,13 @@ struct RecipeListView: View {
     var body: some View {
         
         NavigationView {
-            
             List(model.recipes) { r in
                 
-                NavigationLink(destination: RecipeDetailView(recipe: r),
+                NavigationLink(destination:RecipeDetailView(recipe:r),
                     label: {
                     
-                    HStack (spacing : 20.0) {
+                    //MARK: Row item
+                    HStack(spacing : 20.0) {
                         Image(r.image)
                             .resizable()
                             .scaledToFill()
@@ -38,6 +38,6 @@ struct RecipeListView: View {
 
 struct RecipeListView_Previews: PreviewProvider {
     static var previews: some View {
-        RecipeListView()
+        RecipeListView().environmentObject(RecipeModel())
     }
 }
