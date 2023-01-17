@@ -9,6 +9,7 @@ import SwiftUI
 
 struct RecipeDetailView: View {
     @EnvironmentObject var model: RecipeModel
+    @State var SelectedServingSize = 2
     
     var recipe:Recipe
     
@@ -21,6 +22,25 @@ struct RecipeDetailView: View {
                     .resizable()
                 .scaledToFill()
                 
+                //MARK: Serving Size Picker
+                VStack{
+                    Text("Select Your Serving Size")
+                    Picker("", selection: $SelectedServingSize) {
+                        Text("2").tag(2)
+                        Text("4").tag(4)
+                        Text("6").tag(6)
+                        Text("8").tag(8)
+                    }
+                    .pickerStyle(SegmentedPickerStyle())
+                    .frame(width:160)
+                }
+                
+                //MARK: Recipe Title
+                Text(recipe.name)
+                    .bold()
+                    .padding(.top, 20)
+                    .padding(.leading)
+                    .font(.largeTitle)
                 //MARK: Ingrdients
                 VStack (alignment: .leading){
                     Text("Ingredients")
@@ -29,7 +49,7 @@ struct RecipeDetailView: View {
                     .padding(.bottom, 5.0)
                     
                     ForEach(recipe.ingredients){item in
-                        Text("*" + item.name)
+                        Text("* " + RecipeModel.getPortion(ingredient: item, recipeServings: recipe.servings, targetServings: SelectedServingSize) + "  " + item.name.lowercased())
                             .padding(.bottom, 5.0)
                     }
                 }
@@ -51,8 +71,13 @@ struct RecipeDetailView: View {
                 }
             }
             .padding(.horizontal)
+            
+            //MARK : Divider
+            
+            Divider()
+            
         }
-        .navigationBarTitle(recipe.name)
+        //.navigationBarTitle(recipe.name)
     }
 }
 
